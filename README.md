@@ -6,7 +6,7 @@ This is deprecated, but still works. Does not include plural management feature.
 - gettext explicit syntax.  
 Includes plural management feature.
 
-Native bash feature is reported to have compatibility and security issues but gettext explicit syntax also have a security issue because it can lead to use 'eval'.
+Native bash feature is reported to have compatibility and security issues.
 
 Tested only on Linux Mint 22.2 en\_US and fr\_FR but should work on other Linux distros and other languages.
 
@@ -30,4 +30,4 @@ Delete the directory where you cloned the GitHub repository.
 
 If you wish to modify the test scripts, you will have to launch ./gen\_po.bash\_native.sh or ./gen\_po.bash\_gettext.sh to re-generate the French traduction .mo files.
 
-By slightly modify gen\_po.bash\_native.sh or gen\_po.bash\_gettext.sh, you can generate traduction .mo files for other languages.
+By slightly modify gen\_po.bash\_native.sh or gen\_po.bash\_gettext.sh (replacing 'fr' with ), you can generate traduction .mo files for other languages.
