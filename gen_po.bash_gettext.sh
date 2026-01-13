@@ -21,6 +21,7 @@ xgettext -L Shell \
   --keyword=_ \
   --keyword=eval_gettext \
   --keyword=ngettext:1,2 \
+  --keyword=eval_ngettext:1,2 \
   -o "${result_file}" "${source_file}"
 if [ -f "${result_file}" ]; then echo 'ok'; else echo 'ERROR!'; exit 255; fi 
 
@@ -52,8 +53,8 @@ if [ -f "${result_file}" ]; then rm "${result_file}"; fi
 msgfmt "${source_file}" -o "${result_file}"
 if [ -f "${result_file}" ]; then echo 'ok'; else echo 'ERROR!'; exit 255; fi 
 
-echo; read -n 1 -p 'Press any key...'
-
 echo
 echo "To test in French, just launch this command line: 'LANGUAGE=fr_FR ./${TEXTDOMAIN}.sh'"
+
+echo; read -n 1 -p 'Press any key...'
 
