@@ -30,4 +30,4 @@ Delete the directory where you cloned the GitHub repository.
 
 If you wish to modify the test scripts, you will have to launch ./gen\_po.bash\_native.sh or ./gen\_po.bash\_gettext.sh to re-generate the French traduction .mo files.
 
-By slightly modify gen\_po.bash\_native.sh or gen\_po.bash\_gettext.sh (replacing 'fr' with ), you can generate traduction .mo files for other languages.
+By slightly modify gen\_po.bash\_native.sh or gen\_po.bash\_gettext.sh (replacing 'fr' with another language), you can generate traduction .mo files for other languages.

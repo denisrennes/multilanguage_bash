@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 10:55+0100\n"
+"POT-Creation-Date: 2026-01-14 10:50+0100\n"
 "PO-Revision-Date: 2026-01-14 10:02+0100\n"
 "Last-Translator: Denis <denis@bigwhite>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -35,7 +35,6 @@ msgid "Value 2"
 msgstr "Valeur 2"
 
 #: test.bash_gettext.sh:19
-#, sh-format
 msgid "This is the test message 2: value=\"${value2}\""
 msgstr "C'est le message test 2 : valeur=\"${value2}\""
 
